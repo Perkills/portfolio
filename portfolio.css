@@ -1,0 +1,405 @@
+html{
+
+    height:90vh;
+      box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    border:50px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+
+#moon{
+
+   width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#animation{
+    animation: Moonie 3s steps(7);
+    animation-iteration-count: 1;
+}
+
+@keyframes Moonie{
+    0%{
+        top:10%;
+    }
+    
+    100{
+        top: auto;
+    }
+}
+
+
+#left{
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    top:45%;
+    position: sticky;
+}
+
+#right{
+    width: 100px;
+    cursor: pointer;
+    float:right;
+    top:45%;
+    position: sticky;
+
+}
+
+#righty{
+     width: 100px;
+    cursor: pointer;
+    top:45%;
+    right: 6%;
+    position: absolute;
+    
+}
+
+#righty1{
+     width: 100px;
+    cursor: pointer;
+    top:45%;
+    right: 4%;
+    position: absolute;
+    padding-left: 10px;
+    
+}
+
+#lefty{
+    width: 100px;
+    cursor: pointer;
+    position:fixed;
+    top: 45%;
+}
+
+
+
+
+#museaname{
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: black;
+   font-family: 'Rubik', sans-serif, 'Medium';
+    margin-top: 13%;
+    margin-bottom: 20px;
+    text-shadow: 4px -2px 7px rgba(150, 150, 150, 1);
+     
+}
+
+#label{
+    width: 20%;
+     margin-top: 8%;
+    margin-left: 10%;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif, bold, 'Medium';
+    border-bottom: 4px solid;
+    border-bottom-width:thick;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 15px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif, bold, 'Medium';
+    text-shadow: 4px -2px 7px rgba(150, 150, 150, 1);
+    
+}
+
+.name h2{
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+     animation: 
+    typing 5s steps(40, end);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#down{
+    animation: fall 1.2s steps(40);
+    transition-timing-function: ease-out;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes fall{
+    0%{
+       margin-top: 200px;
+    }
+    
+    100%{
+        margin-top: 0px;
+    }
+}
+
+
+#photo{
+    width: 20%;
+    margin-left: 10%;
+    float:left;
+}
+
+article{
+    margin-left: 35%;
+    text-align: justify;
+    width: 52%;
+    font-size: 20px;
+   font-family: 'Convergence', sans-serif;
+    
+}
+
+#contact{
+     border-bottom: 4px solid;
+    border-bottom-width:thick;
+    padding-top: 10;
+    letter-spacing: 8px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif, bold, 'Medium';
+      
+}
+
+a{
+    color: black;
+}
+
+
+h1{
+    letter-spacing: 5px;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif, bold, 'Medium';
+    border-bottom: 4px solid;
+    border-bottom-width:thick;
+    padding-top: 0;
+    width: 65%;
+    display: block;
+    cursor: pointer;
+    
+}
+
+
+figcaption{
+        width: 100%;
+    margin-left: 5%;
+    margin-top: 5px;
+    text-align: center;
+     column-span: 1;
+        font-size: 22px;
+   font-family: 'Convergence', sans-serif;
+
+
+}
+
+
+figcaption a{
+    text-decoration: none;
+    text-align: center;
+    margin-top:2%;
+}
+
+figure{
+    width: 
+}
+
+#web{
+    width: 71%;
+    margin-left: 17%;
+    border: 3px solid;
+    filter: grayscale(70%);
+    
+}
+
+#web:hover{
+     filter:none;
+    transition: all 0.6s;
+}
+
+#ani{
+    padding-right:30px;
+}
+
+#end{
+    margin-bottom:690px;
+    overflow: hidden;
+}
+
+#beg{
+    padding-top: 2.5%;
+    margin-left: 15%
+}
+
+#simple as{
+    padding-right:10%;
+    text-align: center;
+    padding-top:0;
+}
+
+#simple{
+width:85%;
+}
+
+#SiAni{
+    width: 71%;
+    margin-left: 11.5%;
+     border: 3px solid;
+    filter: grayscale(70%);
+}
+
+#SiAni:hover{
+     filter:none;
+    transition: all 0.6s;
+}
+
+p{
+    text-align: center;
+         font-size: 18px;
+   font-family: 'Convergence', sans-serif;
+    width: 95%;
+    margin:0;
+    
+}
+
+#grp{
+    width:40%;
+    margin-left: 8%
+}
+
+#artist{
+    width: 25%;
+    float: left;
+    margin-left: 8%;
+    border: 3px solid;
+    filter: grayscale(70%);
+    
+}
+
+#artist:hover{
+     filter:none;
+    transition: all 0.6s;
+    
+}
+
+#arty{
+    margin-left: 2%;
+    font-size: 21px;
+   font-family: 'Convergence', sans-serif;  
+    text-decoration: none;
+}
+
+#artL{
+    width: 48%;
+    margin-right: 0;
+    text-align: right;
+    
+}
+
+#grp2{
+ width:40%;
+    margin-left:8%;
+    margin-top: 5%
+}
+
+#artist2{
+    width: 50%;
+      float: left;
+    margin-left: 16.5%;
+    border: 3px solid;
+    filter: grayscale(70%);
+}
+
+#artist2:hover{
+     filter:none;
+    transition: all 0.6s;
+    
+}
+
+#arty2{
+    margin-left: 2%;
+    width: 70%;
+    font-size: 20px;
+   font-family: 'Convergence', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+#ux{
+    float: right;
+    width: 37%;
+    position: absolute;
+    margin-left: 50%;
+    top:9%
+}
+
+        
+iframe{
+     float: right;
+    height: 30%;
+    width: 37%;
+    right: 10%;
+    position: absolute;
+    
+    
+    }
+
+#bike{
+ top:20%;
+}
+
+figcaption p{
+    position: absolute;
+    width: 50%;
+    top:52%;
+    margin-left: 37%;
+
+    
+}
+
+#dorm{
+    border: 3px solid;
+    filter: grayscale(70%);
+    top:56%;
+    float: right;
+    height: 30%;
+    width: 37%;
+    right: 10%;
+    position: absolute;
+
+}
+
+#dorm:hover{
+    filter:none;
+    transition: all 0.6s;
+}
+
+#arty3{
+     float: right;
+    font-size: 20px;
+   font-family: 'Convergence', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    width:62%;
+    margin-top: 0.5%;
+
+}
+
+#pls{
+    position: absolute;
+    width: 60%;
+    float: right;
+    bottom: 6%;
+    right: 10%
+    
+}
+
